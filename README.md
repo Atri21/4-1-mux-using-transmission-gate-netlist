@@ -59,8 +59,7 @@ xi12 net39 net62 net55 net82 transmission_gate
 
 .option primesim_remove_probe_prefix = 0  
 .probe v(*) i(*) level=1  
-.probe tran v(y) v(net39) v(net41) v(net55) v(net56) v(net57) v(net62) v(net65)  
-+ v(net71) v(net72) v(net82)  
+.probe tran v(y) v(net39) v(net41) v(net55) v(net56) v(net57) v(net62) v(net65) + v(net71) v(net72) v(net82)  
 
 .temp 25  
 
